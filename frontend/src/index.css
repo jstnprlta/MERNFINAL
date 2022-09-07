@@ -7,7 +7,7 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #6a8aca;
   margin: 0;
   font-family: "Poppins";
 }
@@ -85,7 +85,7 @@ form button {
   border: 0;
   color: #fff;
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "cursive";
   border-radius: 4px;
   cursor: pointer;
 }
