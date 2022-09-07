@@ -26,7 +26,6 @@ app.get('/', (req, res) => {
 })
 
 
-const Port = process.env.PORT || 3000
 
 // connect to db
 mongoose
