@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   email: {
     type: String,
-    require: truue,
+    require: true,
     unique: true,
   },
   password: {
@@ -16,14 +16,13 @@ const userSchema = new Schema({
 });
 
 //static signup method
-userSchema.static.signup = async ( email, password ) => {
+userSchema.static.signup = async (email, password) => {
   const exists = await this.findOne({ email });
 
   if (exists) {
     throw Error("Email in use");
   }
 
-  //mypasswordj8907
   const salt = await bcrypt.genSalt(12);
   const hash = await bcrypt.hash(password, salt);
 
