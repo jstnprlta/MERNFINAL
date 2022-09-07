@@ -17,8 +17,16 @@ app.use((req, res, next) => {
 });
 
 // routes
-app.use("/api/workouts", workoutRoutes);
-app.use("/api/user", userRoutes);
+app.use("/api/workouts, workoutRoutes");
+app.use("/api/user, userRoutes");
+
+
+app.get('/', (req, res) => {
+  res.send("Welcome to fitnessSocial API")
+})
+
+
+const Port = process.env.PORT || 3000
 
 // connect to db
 mongoose
