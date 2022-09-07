@@ -2,6 +2,10 @@
 <img width="1104" alt="Screen Shot 2022-09-06 at 8 30 22 PM" src="https://user-images.githubusercontent.com/102006681/188769315-136c77bf-ba0f-4ec9-98ef-b635acee2b6d.png">
 
 <h2> Have you gotten to the gym and forget what your daily routine was for the day. With this application you will be able to input your daily routine for today. This means you can put how many reps and sets you're doing on a machine. This will also allow you to take control and delete what you have allready done and move on to the next machine. </h2>
+<img width="716" alt="Screen Shot 2022-09-06 at 11 40 03 PM (1)" src="https://user-images.githubusercontent.com/102006681/188791717-a473eb20-5a47-468e-a502-739cd9e125e0.png">
+
+![Screen Shot 2022-09-06 at 11 30 51 PM](https://user-images.githubusercontent.com/102006681/188792257-9577f86d-d85f-4f86-ae3e-3e9922036340.jpeg)
+
 
 <h2> Future development</h2>
 
