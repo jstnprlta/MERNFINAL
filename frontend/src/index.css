@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 
 
+ {
 
+}
 
 /* layout */
 :root {
@@ -10,7 +12,7 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #6a8aca;
   margin: 0;
   font-family: "Poppins";
 }
@@ -88,7 +90,7 @@ form button {
   border: 0;
   color: #fff;
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "cursive";
   border-radius: 4px;
   cursor: pointer;
 }
